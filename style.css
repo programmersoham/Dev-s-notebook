@@ -1,0 +1,43 @@
+body{
+  margin: auto;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  }
+
+.text-container {
+  
+background: #fff;
+margin: auto;
+padding: 1rem;
+ 
+}
+
+textarea {
+  height: 550px;
+  width: 80%;
+  align-self: center;
+  justify-self: center;
+  border: 2px solid black;
+}
+
+footer {
+  background-color: #1a202c;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+.main-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
