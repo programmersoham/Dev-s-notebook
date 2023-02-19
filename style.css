@@ -13,7 +13,7 @@ div {
 .text-container {
   
 background: #fff;
-margin: auto;
+margin-top: 1rem auto;
 padding: 1rem;
  
 }
@@ -24,6 +24,7 @@ textarea {
   align-self: center;
   justify-self: center;
   border: 2px solid black;
+  margin-top: 2rem;
 }
 
 footer {
