@@ -49,9 +49,10 @@ h1 {
   }
   
   #pom-buttons button { 
-    background:#ffffff; 
-    border:none; 
-    color:#fff; 
+    
+    
+    border:solid 2px rgb(53, 46, 46); 
+    /* color:#000000;  */
     cursor:pointer; 
     padding:5px; 
     width:90px; 
