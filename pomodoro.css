@@ -19,7 +19,7 @@ h1 {
   
   #pom-timer{ 
     color:rgb(0, 0, 0); 
-    font-size:50px; 
+    font-size:30px; 
     margin:10px auto;
     border : 2px solid rgb(12, 12, 12);
     border-radius:50%;
@@ -49,7 +49,7 @@ h1 {
   }
   
   #pom-buttons button { 
-    background:#4da6ff; 
+    background:#ffffff; 
     border:none; 
     color:#fff; 
     cursor:pointer; 
@@ -62,14 +62,14 @@ h1 {
   }
   
   #pom-buttons button#shortBreak{
-    background : #0c0;
+    background : rgb(255, 255, 255);
   }
   
   #pom-buttons button#longBreak{
-    background : #080;
+    background : rgb(255, 255, 255);
   }
   
   #pom-buttons button#stop{
-    background : #f00;
+    background : rgb(255, 255, 255);
   }
   

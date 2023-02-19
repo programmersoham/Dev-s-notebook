@@ -20,7 +20,7 @@ function createWindow () {
   win.loadFile('index.html');
   
   // Open dev tools
-  win.webContents.openDevTools();
+  // win.webContents.openDevTools();
 
   // Get the default session
   const defaultSession = session.defaultSession;

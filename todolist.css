@@ -8,7 +8,7 @@ body {
 .container {
 	display: block;
 	width: 400px;
-	margin: 10px auto 100px;
+	margin: auto ;
 	background-color:#fff;
 	padding:0px 10px 10px 10px;
 	border-radius:10px
@@ -37,7 +37,7 @@ h3 {
 
 input,
 button {
-	
+	margin: 2rem;
     border:2px solid black;
 }
 
@@ -111,10 +111,10 @@ p > button:hover {
 
 /* Task list */
 
-li {
+li { margin: auto;
 	overflow: hidden;
 	padding: 20px 0;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #000000;
 }
 
 li > input[type="checkbox"] {
@@ -163,4 +163,10 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
 	display: none;
+}
+.A-button{
+    margin-top: 2rem;
+    margin: 2rem;
+     /* padding: 1rem;  */
+
 }
