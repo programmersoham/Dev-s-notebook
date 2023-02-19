@@ -8,6 +8,7 @@
     <title>Pomodoro Timer</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pomodoro.css">
 </head>
 
 <body>
@@ -27,11 +28,32 @@
         </div>
     </header>
     <h1>This is timer</h1>
+    <div id="pomodoro-app">
+        <div id="pom-container">
+          <div id="pom-timer">
+            <div id="time">
+              <span id="minutes">25</span>
+              <span id="colon">:</span>
+              <span id="seconds">00</span>
+            </div>
+            <div id="filler"></div>
+          </div>
+      
+          <div id="pom-buttons">
+            <button id="work">Work</button>
+            <button id="shortBreak">Short Break</button>
+            <button id="longBreak">Long Break</button>
+            <button id="stop">Stop</button>
+          </div>
+        </div>
+      </div>
+
     <footer>
         <p>Made with Red Bull by ProgrammerSoham</p>
     </footer>
+    
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <script src="pomodoro.js"></script>
 </body>
 
 </html>
