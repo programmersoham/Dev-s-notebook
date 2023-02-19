@@ -1,16 +1,8 @@
-body{
-    margin: auto;
-  }
-h1 {
-    text-align: center;
-    font-weight: 900;
-    font-size: larger;
-}
 body {
 	background: #fff;
 	color: #333;
 	font-family: Lato, sans-serif;
-	background-color:#e4e4e4;
+	background-color:#ffffff;
 }
 
 .container {
@@ -45,22 +37,24 @@ h3 {
 
 input,
 button {
-	outline: none;
+	
+    border:2px solid black;
 }
 
 button {
-	background: none;
-	border: 0px;
-	color: #888;
+	
+	
 	font-size: 15px;
 	width: 60px;
 	margin: 10px 0 0;
 	font-family: Lato, sans-serif;
 	cursor: pointer;
+    margin: 1 rem;
+    padding: 1 rem;
 }
 
 button:hover {
-	color: #333;
+	color: #0fc57c;
 }
 
 
@@ -72,8 +66,8 @@ label[for='new-task'] {
 	font-weight: 700;
 	font-size: 15px;
 	border-bottom: 2px solid #333;
-	padding: 20px 0 10px;
-	margin: 0;
+	padding: auto;
+	margin: auto;
 	text-transform: uppercase;
 }
 
@@ -99,16 +93,19 @@ input[type="text"]:focus {
 
 label[for='new-task'] {
 	display: block;
-	margin: 0 0 20px;
+	margin: auto;
+    
 }
 
 input#new-task {
 	float: left;
 	width: 318px;
+    border: #000 2px solid;
+    margin-top: 2rem;
 }
 
 p > button:hover {
-	color: #0FC57C;
+	color: #0fc57c;
 }
 
 
@@ -148,7 +145,11 @@ li > .delete:hover {
 	text-decoration: line-through;
 	color: #888;
 }
-
+#new-task{
+    border: #333 2px;
+    margin-top: auto;
+    padding-top: auto;
+}
 
 /* Edit Task */
 

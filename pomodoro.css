@@ -8,20 +8,20 @@ h1 {
 }
 
 #pom-container{
-    border:1px solid #333;
+    border:1px solid #000000;
     border-radius :20px;
     width:400px;
     margin:20px auto;
     padding:20px;
     text-align:center;
-    background : #333;
+    background : #ffffff;
   }
   
   #pom-timer{ 
-    color:#f00; 
+    color:rgb(0, 0, 0); 
     font-size:50px; 
     margin:10px auto;
-    border : 5px solid red;
+    border : 2px solid rgb(12, 12, 12);
     border-radius:50%;
     width:200px;
     height:200px;
