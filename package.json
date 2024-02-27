@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/programmersoham/Dev-s-notebook#readme",
   "devDependencies": {
-    "electron": "^23.1.0"
+    "electron": "^24.8.5"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
